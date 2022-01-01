@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+    <link rel='stylesheet' id='compiled.css-css' href='css/font-awesome.css' type='text/css' media='all' />
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/sweetalert.css">
+    <title>Dash Board</title>
+</head>
+
+<body class="fixed-sn">
+
+    <form method="post">
+        <header>
+            <!-- Sidebar navigation -->
+            <div id="slide-out" class="side-nav fixed">
+                <ul class="custom-scrollbar list-unstyled" style="max-height:100vh;">
+                    <!-- Side navigation links -->
+                    <li>
+                        <ul id="side-menu" class="collapsible collapsible-accordion">
+                            <li id="menu-item-59439" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  menu-item-59439"><a class="collapsible-header waves-effect arrow-r scroller"><i class="fa fa-user"></i>PROFILE<i class="fa fa-angle-down rotate-icon"></i></a>
+                                <div class="collapsible-body">
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-59452" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home  menu-item-59452"><a class="collapsible-header waves-effect" id="link-menu-item-59452" href="#" target="main">Change Password</a>
+                                        </li>
+                                        <li id="menu-item-59452" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home  menu-item-59452"><a class="collapsible-header waves-effect" id="link-menu-item-59452" href="#" target="main">Student Profile Details</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            
+                            <li id="menu-item-59439" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  menu-item-59439"><a class="collapsible-header waves-effect arrow-r scroller"><i class="fa fa-graduation-cap"></i>LECTURERS<i class="fa fa-angle-down rotate-icon"></i></a>
+                                <div class="collapsible-body">
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-59452" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home  menu-item-59452"><a class="collapsible-header waves-effect" id="link-menu-item-59452" href="#" target="main">List of Lecturers</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            
+                            <li id="menu-item-59439" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  menu-item-59439"><a class="collapsible-header waves-effect arrow-r scroller"><i class="fa fa fa-file-pdf-o"></i>ATTENDANCE<i class="fa fa-angle-down rotate-icon"></i></a></li>
+                            
+                            <li id="menu-item-59439" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  menu-item-59439"><a class="collapsible-header waves-effect arrow-r scroller"><i class="fa fa-credit-card"></i>CLASS LIST<i class="fa fa-angle-down rotate-icon"></i></a>
+                                <div class="collapsible-body">
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-59452" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home  menu-item-59452"><a class="collapsible-header waves-effect" id="link-menu-item-59452" href="#" target="main">Student Name</a>
+                                        </li>
+                                        <li id="menu-item-59452" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home  menu-item-59452"><a class="collapsible-header waves-effect" id="link-menu-item-59452" href="#" target="main">Reg No</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            
+                            <li id="menu-item-59439" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  menu-item-59439"><a class="collapsible-header waves-effect arrow-r scroller"><i class="fa fa-home"></i>GROUP<i class="fa fa-angle-down rotate-icon"></i></a>
+                                <div class="collapsible-body">
+                                    <ul class="sub-menu">
+                                        
+                                        <li id="menu-item-59452" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home  menu-item-59452"><a class="collapsible-header waves-effect" id="link-menu-item-59452" href="#" target="main">Assignment</a>
+                                        </li>
+                                        <li id="menu-item-59452" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home  menu-item-59452"><a class="collapsible-header waves-effect" id="link-menu-item-59452" href="#" target="main">Project</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            
+                            <li id="menu-item-59439" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  menu-item-59439"><a class="collapsible-header waves-effect arrow-r scroller"><i class="fa fa fa-file-pdf-o"></i>COURSE<i class="fa fa-angle-down rotate-icon"></i></a>
+                                <div class="collapsible-body">
+                                    <ul class="sub-menu">
+                                        
+                                        <li id="menu-item-59452" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home  menu-item-59452"><a class="collapsible-header waves-effect" id="link-menu-item-59452" href="#" target="main">Register Courses</a></li>
+                                        <li id="menu-item-59452" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home  menu-item-59452"><a class="collapsible-header waves-effect" id="link-menu-item-59452" href="#" target="main">List of Courses</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            
+                            
+                            <li id="menu-item-59439" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  menu-item-59439"><a class="collapsible-header waves-effect arrow-r scroller"><i class="fa fa-credit-card"></i>INFO<i class="fa fa-angle-down rotate-icon"></i></a>
+                                <div class="collapsible-body">
+                                    <ul class="sub-menu">
+                                        
+                                        <li id="menu-item-59452" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home  menu-item-59452"><a class="collapsible-header waves-effect" id="link-menu-item-59452" href="#" target="main">Class Reps</a>
+                                        </li>
+                                        <li id="menu-item-59452" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home  menu-item-59452"><a class="collapsible-header waves-effect" id="link-menu-item-59452" href="#" target="main">Ass. Class Reps</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            
+                            <li id="menu-item-59439" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  menu-item-59439"><a class="collapsible-header waves-effect arrow-r scroller"><i class="fa fa-lock"></i>SIGN OUT<i class="fa fa-angle-down rotate-icon"></i></a>
+                                <div class="collapsible-body">
+                                    <ul class="sub-menu">
+                                        
+                                        <li id="menu-item-59452" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home  menu-item-59452"><a class="collapsible-header waves-effect" id="link-menu-item-59452" href="#" target="main">Close Application</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                </li>
+                <!-- /. Side navigation links -->
+            </ul>
+        </div>
+
+
+
+        <nav class="navbar fixed-top navbar-expand-md navbar-light white double-nav scrolling-navbar" style="background-image: url('img/header_bg.jpg');background-size: cover;">
+            <!-- SideNav slide-out button -->
+            <div class="float-left">
+                <a href="#" data-activates="slide-out" class="button-collapse" style="color: white"><i class="fa fa-bars"></i></a>
+            </div>
+            <div class="float-left" style="margin: 0px 15px">
+                <div style="width: 50%; margin: 0px auto">
+                    <a class="pl-0" href="#" style="width: 100%">
+                        <img id="MDB-logo" src="img/logo_small.png" style="width: 100%" alt="UNN">
+                    </a>
+
+                </div>
+            </div>
+            <div class="float-left">
+                <span class="name-full" style="font-weight: bold">University of Nigeria</span>
+                <span class="name-short" style="font-weight: bold;">UNN</span>
+            </div>
+
+
+
+            <!--Navigation icons-->
+
+            <ul class="nav navbar-nav nav-flex-icons ml-auto">
+                
+                <li class="dropdown">
+                    <a class="nav-link dropdown-toggle waves-effect waves-light" style="color: white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Profile
+					</a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item waves-effect waves-light" target="main" href="ChangePassword.aspx">Change Password</a>
+						<a class="dropdown-item waves-effect waves-light" href="logout_processor.htm">Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main layout-->
+    <main>
+        <div>
+            <center>
+                <div id="mainContent_Panel1" style="width:100%;"><br><br>
+                    <div style="width: 100%">
+                        <img id="mainContent_Image1" src="img/info.gif" style="height:53px;"><br>
+                        <span style="font-size: 16pt"><span id="mainContent_lblMessage">Hello STUDENTS, Kindly remind the lecturer about her class.</span></span> <br />
+                        <input type="text" class="btn btn-primary" id="input" value="NOTIFY" style="position: relative; align-items: center; margin-top: 30px; cursor: pointer; border-radius: 5px;"  />
+                    </div>
+                </div>
+            </center>
+            <!--SweetAlert CSS-->
+            <style>
+                .sweetAlert {
+                    display: none;
+                }
+                .show {
+                    display: block;
+                }
+            </style>
+            <!--End of SweetAlert CSS-->
+
+            
+            <!-- Sweetalert -->
+            <div class="sweetAlert swal2-container swal2-fade swal2-shown" style="overflow-y: auto;">
+                <div role="dialog" aria-labelledby="swal2-title" aria-describedby="swal2-content" class="swal2-modal swal2-show" tabindex="-1" style="width: 500px; padding: 20px; background: rgb(255, 255, 255); display: block; min-height: 318px;">
+                    <ul class="swal2-progresssteps" style="display: none;"></ul>
+                    <div class="swal2-icon swal2-error" style="display: none;">
+                        <span class="swal2-x-mark"><span class="swal2-x-mark-line-left"></span>
+                        <span class="swal2-x-mark-line-right"></span></span>
+                    </div>
+                    <div class="swal2-icon swal2-question" style="display: none;">?</div>
+                    <div class="swal2-icon swal2-warning" style="display: none;">!</div>
+                    <div class="swal2-icon swal2-info" style="display: none;">i</div>
+                    <div class="swal2-icon swal2-success swal2-animate-success-icon" style="display: block;">
+                        <div class="swal2-success-circular-line-left" style="background: rgb(255, 255, 255);"></div>
+                        <span class="swal2-success-line-tip swal2-animate-success-line-tip"></span> 
+                        <span class="swal2-success-line-long swal2-animate-success-line-long"></span>
+                        <div class="swal2-success-ring"></div> 
+                        <div class="swal2-success-fix" style="background: rgb(255, 255, 255);"></div>
+                        <div class="swal2-success-circular-line-right" style="background: rgb(255, 255, 255);"></div>
+                    </div>
+                    <img class="swal2-image" style="display: none;">
+                    <h2 class="swal2-title" id="swal2-title">Good job!</h2>
+                    <div id="swal2-content" class="swal2-content" style="display: block;">Notification email has been sent to the lecturer to confirm.</div>
+                    <input class="swal2-input" style="display: none;">
+                    <input type="file" class="swal2-file" style="display: none;">
+                    <div class="swal2-range" style="display: none;">
+                        <output></output>
+                        <input type="range">
+                    </div>
+                    <select class="swal2-select" style="display: none;"></select>
+                    <div class="swal2-radio" style="display: none;"></div>
+                    <label for="swal2-checkbox" class="swal2-checkbox" style="display: none;"><input type="checkbox"></label>
+                    <textarea class="swal2-textarea" style="display: none;"></textarea>
+                    <div class="swal2-validationerror" style="display: none;"></div>
+                    <div class="swal2-buttonswrapper" style="display: block;">
+                        <button type="submit" class="swal2-confirm swal2-styled" style="background-color: rgb(48, 133, 214); border-left-color: rgb(48, 133, 214); border-right-color: rgb(48, 133, 214);">OK</button>
+                        <button type="button" class="swal2-cancel swal2-styled" style="display: none; background-color: rgb(170, 170, 170);">Cancel</button>
+                    </div>
+                    <button type="button" class="swal2-close" aria-label="Close this dialog" style="display: none;">×</button>
+                </div>
+            </div>
+            <!--End of Sweetalert-->
+        </div>
+    </main>
+    <!-- /.Main layout-->
+
+    <!--Footer-->
+    <footer id="footer" class="page-footer unique-color-dark mt-4" style="position: relative; top: 460px;">
+
+        <!-- Copyright-->
+        <div class="footer-copyright py-3 text-center">
+            Copyright &copy;<script>document.write(new Date().getFullYear()); </script>
+            <a href="#" target="_blank">
+                <strong>University of Nigeria</strong>
+            </a>
+        </div>
+        <!--/.Copyright -->
+    </footer>
+    <!--/.Footer-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script src="js/sweetalert.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        var ps = null;
+        var el = null;
+        (function($) {
+            // SideNav init
+            $(".button-collapse").sideNav();
+            el = document.getElementsByClassName('custom-scrollbar')[0];
+            Ps.initialize(el);
+
+
+            $('.scroller').on('click', function(){
+
+                setTimeout(function(){
+                    window.Ps.update(el)
+                }, 500)
+
+            })
+
+        })(jQuery);
+
+        function resizeIframe(iframe) {
+            iframe.height = iframe.contentWindow.document.body.scrollHeight + 100 + "px";
+
+        }
+
+        //var ps = new PerfectScrollbar(container);
+    </script>
+    </form>
+    <div class="drag-target" style="left: 0px; touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div>
+    <div class="hiddendiv common"></div>
+</body>
+</html>
